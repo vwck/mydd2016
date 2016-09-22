@@ -25,19 +25,32 @@
 		   <div class='content'>
 			
 				<h3>Please select the zone area to be cleaned</h3><br>
-  <!--        <form action="do.php" method="post">
-               Input Zone: <input type="text" name="input1"><br>
-                           <input type="submit">
-	-->					   
-          </form> </P> <h3>
+          <form action="rawdata.php" method="post">
+		    <input type="text" name="z1" value="1">Zone 1<br>
+		    <input type="text" name="z2" value="2">Zone 2<br>
+		    <input type="text" name="z3" value="3">Zone 3<br>
+		    <input type="text" name="z4" value="4">Zone 4<br>
+		    <input type="text" name="z5" value="0">Zone 5<br>
+                           
+						     <input type="submit" value="E N T E R" style="height:50px; width:150px;">
+          </form> 
+		  
+		  
+		  </P> <h3>
+<!--        		  <input type="text" name="z1" value="0" >
+
+
            <form action="rawdata.php" method="post">
-              <input type="checkbox" name="zone1" value="1">Zone 1<br>
-              <input type="checkbox" name="zone2" value="2">Zone 2<br>
-              <input type="checkbox" name="zone3" value="3">Zone 3<br>
-              <input type="checkbox" name="zone4" value="4">Zone 4<br>
-              <input type="checkbox" name="zone5" value="0">Zone 5<br>
-			  <input type="submit" value="E N T E R">
+              <input type="checkbox" name="z1" value="1">Zone 1<br>
+			    <input id='testNameHidden' type='hidden' value='No' name='z1'>
+              <input type="checkbox" name="z2" value="2">Zone 2<br>
+              <input type="checkbox" name="z3" value="3">Zone 3<br>
+              <input type="checkbox" name="z4" value="4">Zone 4<br>
+              <input type="checkbox" name="z5" value="0">Zone 5<br>
+			  <input type="submit" value="E N T E R" style="height:50px; width:150px;">
            </form>
+		   -->
+		   
                   </h3>
 
 			</div>

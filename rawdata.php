@@ -23,16 +23,21 @@
 		   <div class='content'>
 
 <?php
-$r; $r2; $zero=0; $one=0; $two=0; $three=0; $four=0; $zone; $counter=0; $p0; $p1; $p2; $p3; $p4; $a; $b; $c; $d; $e;
+$r; $r2; $zero=0; $one=0; $two=0; $three=0; $four=0; $counter=0; $p0; $p1; $p2; $p3; $p4; $a; $b; $c; $d; $e;
+$zone=array();
 
-/*echo "recent values: ", $_POST["zone1"], $_POST["zone2"], $_POST["zone3"], $_POST["zone4"], $_POST["zone5"]; */
-echo "random for 10 iterations <br>";
 
-                      if ($_POST["zone5"] == 0) { $zero = $zero + 1; }
-			          if ($_POST["zone1"] == 1) { $one = $one + 1; }
-			          if ($_POST["zone2"] == 2) { $two = $two + 1; }
-			          if ($_POST["zone3"] == 3) { $three = $three + 1; }
-			          if ($_POST["zone4"] == 4) { $four = $four + 1; }
+
+echo "recent values: ", $_POST["z1"], $_POST["z2"], $_POST["z3"], $_POST["z4"], $_POST["z5"]; 
+echo "<hr size=1>";	
+
+echo "past data is shown below for demostration only and will not be shown in release version<br>";
+
+                      if ($_POST["z5"] == 0) { $zero = $zero + 1; }
+			          if ($_POST["z1"] == 1) { $one = $one + 1; }
+			          if ($_POST["z2"] == 2) { $two = $two + 1; }
+			          if ($_POST["z3"] == 3) { $three = $three + 1; }
+			          if ($_POST["z4"] == 4) { $four = $four + 1; }
 
 
 for ($i=1; $i <=10; $i++) {
@@ -59,21 +64,14 @@ for ($i=1; $i <=10; $i++) {
 					 
 				              }  /*endif*/
 
-
-			   
-/*				if ( $r > 0 ) 
-	               { 
-				   for ($ii=1; $ii<=$r; $ii++) {  
-				      $r2 = rand(0,4);       
-						echo " ", $r2, " "; }  */
-
-				echo $r, " <br> ";  
+					echo $r, " <br> ";  
 				
 				}  /*end for */     	    
              	  
 /* analysze data for next prediction - artifical intelligence */
 
       echo "<br> The zone frequency: zero = ", $zero, " one = ", $one, " two = ", $two, " three = ", $three, " four = ", $four;
+	  echo "<hr size=1>";	
       echo "<p><br><u> The next prediction is in the highest priority to the lowest priority order </u> <p>"; 
       $zone = array ($zero, $one, $two, $three, $four );          
  
@@ -131,12 +129,12 @@ if ($counter!=5) {
 					 }
 ?>
 
-<p>					 
-<div style="overflow-x:auto;">
+<br><p><p>					 
+   <!-- <div style="overflow-x:auto;"> -->
 <table border="1"> <tr><td> Zone 1</td> <td> Zone 2</td></tr>
         <tr><td> Zone 3</td> <td> Zone 4</td></tr>
  </table>					 
-		</div>
+	<!--	</div> -->
 <br> Zone 0 shows the area is clean <br>
 			</div>
 		</div>

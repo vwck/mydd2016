@@ -24,7 +24,7 @@
 		<div id='article'>
 		   <div class='content'>
 			
-				<h3>Please select the zone area to be cleaned</h3><br>
+				<h3>Please select the zone area needs to be cleaned</h3><br>
           <form action="rawdata.php" method="post">
 
 	<div style="overflow-x:auto;">

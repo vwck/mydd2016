@@ -14,7 +14,7 @@
 	<div id="nav">
 		<ul>
 			 <li><a href="help.php"> Help</a></li>
-		     <li><a href="exit.php"> Exit </a></li>
+		     
 		</ul>
 		<div class="clearfix"></div>
 	</div>

@@ -24,16 +24,19 @@
 		<div id='article'>
 		   <div class='content'>
 				<h1>Guide</h1>
-				<h3>Please input the zone number in the <a href="./main.php">main screen</a></h3><br>
-				<h3>Example: request cleaner to clean zone 1, zone 2 and zone 3 to be cleaned then key in "1,2,3" into the input dialog.</h3><br>
+				<h3>Please select "Yes" or "No" that corresponds to the zone number in the <a href="./main.php">main screen</a> for cleaning the zone area.</h3><br>
+				<h3>Example: request cleaner to clean zone 1, zone 2 and zone 3 then select "Yes" that correspond to the zone numbers.</h3><br>
                 <h3>The property area is divided into 4 zones as below:</h3><br>
 				<h3><table border="1"> <tr><td> Zone 1</td> <td> Zone 2</td></tr>
                         <tr><td> Zone 3</td> <td> Zone 4</td></tr>
                     </table>					 
                                                                            </h3><br>
                 <h3>Key in zone 5 to abort the cleaning process or put the cleaner to sleep mode</h3><br>
- 
-
+                <h3>First task interval is 15mins</h3><br>
+				<h3>Second task interval is 30mins</h3><br>
+				<h3>Third task interval is 60mins</h3><br>
+				<h3>Fourth task interval is 80mins</h3><br>
+				<h3>Fifth task interval is 120mins</h3><br>
 			</div>
 		</div>
     </div>	

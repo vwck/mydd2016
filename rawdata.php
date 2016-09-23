@@ -28,16 +28,16 @@ $zone=array();
 
 
 
-echo "recent values: ", $_POST["z1"], $_POST["z2"], $_POST["z3"], $_POST["z4"], $_POST["z5"]; 
+/* echo "recent values: ", $_POST["z1"], $_POST["z2"], $_POST["z3"], $_POST["z4"], $_POST["z5"];  */
 echo "<hr size=1>";	
 
 echo "past data is shown below for demostration only and will not be shown in release version<br>";
 
-                      if ($_POST["z5"] == 0) { $zero = $zero + 1; }
+                      if ($_POST["z5"] == 1) { $zero = $zero + 1; }
 			          if ($_POST["z1"] == 1) { $one = $one + 1; }
-			          if ($_POST["z2"] == 2) { $two = $two + 1; }
-			          if ($_POST["z3"] == 3) { $three = $three + 1; }
-			          if ($_POST["z4"] == 4) { $four = $four + 1; }
+			          if ($_POST["z2"] == 1) { $two = $two + 1; }
+			          if ($_POST["z3"] == 1) { $three = $three + 1; }
+			          if ($_POST["z4"] == 1) { $four = $four + 1; }
 
 
 for ($i=1; $i <=10; $i++) {
@@ -131,7 +131,7 @@ if ($counter!=5) {
 
 <br><p><p>					 
    <!-- <div style="overflow-x:auto;"> -->
-<table border="1"> <tr><td> Zone 1</td> <td> Zone 2</td></tr>
+<table style="border=1; border-spacing: 15px 20px;"> <tr><td> Zone 1</td> <td> Zone 2</td></tr>
         <tr><td> Zone 3</td> <td> Zone 4</td></tr>
  </table>					 
 	<!--	</div> -->

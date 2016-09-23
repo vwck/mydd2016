@@ -26,13 +26,56 @@
 			
 				<h3>Please select the zone area to be cleaned</h3><br>
           <form action="rawdata.php" method="post">
-		    <input type="text" name="z1" value="1">Zone 1<br>
+
+	<div style="overflow-x:auto;">
+		  <table style="border-spacing: 10px 50px;"> <tr><td>		  
+Zone 1<br><select name="z1">
+    <option selected value="0" >No</option>
+    <option value="1">Yes</option>
+	</select>
+	<br>
+</td>
+
+<td>
+Zone 2<br>  <select name="z2">
+    <option selected value="0" >No</option>
+    <option value="1">Yes</option>
+	</select>
+<br>
+</td>	
+	</tr>
+	
+	<tr><td>
+Zone 3<br>	<select name="z3">
+    <option selected value="0"> >No</option>
+    <option value="1">Yes</option>
+	</select>  
+<br>
+</td>
+   <td>
+Zone 4<br>	<select name="z4">
+    <option selected value="0" >No</option>
+    <option value="1">Yes</option>
+	</select>
+	<br>
+	</td>
+</tr>
+</table>	
+	</div>
+	
+Zone 5<br>	<select name="z5">
+    <option selected value="0" >No</option>
+    <option value="1">Yes</option>
+    </select>
+	<br> &nbsp <p>
+   	  
+<!--		    <input type="text" name="z1" value="1">Zone 1<br>
 		    <input type="text" name="z2" value="2">Zone 2<br>
 		    <input type="text" name="z3" value="3">Zone 3<br>
 		    <input type="text" name="z4" value="4">Zone 4<br>
 		    <input type="text" name="z5" value="0">Zone 5<br>
-                           
-						     <input type="submit" value="E N T E R" style="height:50px; width:150px;">
+    -->                       
+						     <input type="submit" value="E N T E R" style="height:30px; width:120px;">
           </form> 
 		  
 		  
